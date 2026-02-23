@@ -55,46 +55,7 @@ pkgs.mkShell {
       yfinance
     ]))
     ty
-    (rWrapper.override {
-      packages = with rPackages; [
-        tidyverse
-        shinylive
-        remotes
-        devtools
-        cranlogs
-        rhub
-        spelling
-        testthat
-        roxygen2
-        logger
-        rmarkdown
-        flexdashboard
-        DT
-        websocket
-        quarto
-        thematic
-        IRkernel
-        languageserver
-        microbenchmark
-        bench
-        quantmod
-        PerformanceAnalytics
-        prophet
-        CausalImpact
-        caret
-        randomForest
-        xgboost
-        arrow
-        duckdb
-        sqlite
-        plotly
-        dygraphs
-        # leaflet
-        mirai
-        biscale
-        dfms
-      ];
-    })
+    R
     go
     rustup
     nodejs
