@@ -4,7 +4,7 @@ _My nix-shell files for a common development environment on Linux and macOS_
 
 ## Installing Nix
 
-Linux:
+Linux or WSL2:
 
     sh <(curl --proto '=https' --tlsv1.2 -L https://nixos.org/nix/install) --daemon
 
