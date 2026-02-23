@@ -75,6 +75,7 @@ pkgs.mkShell {
         xgboost
         arrow
         duckdb
+        sqlite
         plotly
         dygraphs
         # leaflet
