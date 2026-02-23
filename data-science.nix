@@ -42,6 +42,7 @@ pkgs.mkShell {
       ruff
       jupyter
       pandas
+      duckdb
       matplotlib
       prophet
       scikit-learn
