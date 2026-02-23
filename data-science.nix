@@ -94,6 +94,6 @@ pkgs.mkShell {
   shellHook = ''
     cd
     clear
-    figlet "Welcome to Lars' data science environment!"
+    figlet "Welcome to Lars' Data Science Environment!"
   '';
 }
