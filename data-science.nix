@@ -17,6 +17,8 @@ pkgs.mkShell {
     fd
     eza
     bat
+    htop
+    btop
     git
     github-cli
     cmake
