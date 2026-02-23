@@ -27,6 +27,8 @@ pkgs.mkShell {
       jupyter
       uv
       ruff
+      jedi-language-server
+      python-lsp-ruff
       jupyter
       pandas
       matplotlib
@@ -44,6 +46,7 @@ pkgs.mkShell {
       streamlit
       yfinance
     ]))
+    ty
     (rWrapper.override {
       packages = with rPackages; [
         tidyverse
