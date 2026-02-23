@@ -37,8 +37,6 @@ pkgs.mkShell {
       jupyter
       uv
       ruff
-      jedi-language-server
-      python-lsp-ruff
       jupyter
       pandas
       matplotlib
