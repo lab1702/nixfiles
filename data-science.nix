@@ -6,20 +6,21 @@ in
 
 pkgs.mkShell {
   packages = with pkgs; [
-    helix
-    tree
     gnupg
     curl
     wget
     unzip
     jq
+    tree
     ripgrep
     fzf
     fd
     eza
     bat
+    figlet
     htop
     btop
+    mactop
     git
     github-cli
     cmake
@@ -61,10 +62,8 @@ pkgs.mkShell {
     go
     rustup
     nodejs
-    sqlite
     duckdb
     gnuplot
-    figlet
   ];
 
   shellHook = ''
