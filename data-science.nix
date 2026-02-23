@@ -20,7 +20,6 @@ pkgs.mkShell {
     figlet
     htop
     btop
-    mactop
     git
     github-cli
     cmake
@@ -64,6 +63,8 @@ pkgs.mkShell {
     nodejs
     duckdb
     gnuplot
+  ] ++ lib.optionals stdenv.isDarwin [
+    mactop
   ];
 
   shellHook = ''
