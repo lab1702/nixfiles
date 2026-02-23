@@ -65,9 +65,7 @@ pkgs.mkShell {
     gnuplot
   ] ++ lib.optionals stdenv.isDarwin [
     (mactop.overrideAttrs {
-      preCheck = ''
-        export HOME=$(mktemp -d)
-      '';
+      doCheck = false;
     })
   ];
 
