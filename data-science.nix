@@ -38,9 +38,6 @@ pkgs.mkShell {
       matplotlib
       scikit-learn
       jupyter
-      uv
-      ruff
-      jupyter
       pandas
       duckdb
       matplotlib
@@ -58,11 +55,13 @@ pkgs.mkShell {
       streamlit
       yfinance
     ]))
-    ty
+    uv
+    ruff
     R
     go
     rustup
     nodejs
+    sqlite
     duckdb
     gnuplot
     figlet
