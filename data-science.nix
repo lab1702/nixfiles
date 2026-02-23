@@ -88,10 +88,12 @@ pkgs.mkShell {
     nodejs
     duckdb
     gnuplot
+    figlet
   ];
 
   shellHook = ''
     cd
-    echo "Welcome to Lars' data science environment!"
+    clear
+    figlet "Welcome to Lars' data science environment!"
   '';
 }
