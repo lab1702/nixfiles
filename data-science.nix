@@ -14,6 +14,7 @@ pkgs.mkShell {
     jq
     ripgrep
     fzf
+    fd
     eza
     bat
     git
