@@ -64,7 +64,11 @@ pkgs.mkShell {
     duckdb
     gnuplot
   ] ++ lib.optionals stdenv.isDarwin [
-    mactop
+    (mactop.overrideAttrs {
+      preCheck = ''
+        export HOME=$(mktemp -d)
+      '';
+    })
   ];
 
   shellHook = ''
