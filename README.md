@@ -21,3 +21,7 @@ macOS:
 
     cd
     git clone https://github.com/lab1702/nixfiles.git
+
+## Start Shell
+
+    nix-shell ~/nixfiles/data-science.nix
