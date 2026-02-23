@@ -7,6 +7,15 @@ pkgs.mkShell {
   packages = with pkgs; [
     helix
     tree
+    gnupg
+    curl
+    wget
+    unzip
+    jq
+    ripgrep
+    fzf
+    eza
+    bat
     git
     github-cli
     cmake
