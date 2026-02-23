@@ -16,3 +16,8 @@ macOS:
 
     mkdir -p ~/.config/nix
     echo 'experimental-features = nix-command flakes' >> ~/.config/nix/nix.conf
+
+## Clone Files
+
+    cd
+    git clone https://github.com/lab1702/nixfiles.git
