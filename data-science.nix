@@ -20,7 +20,6 @@ pkgs.mkShell {
     figlet
     htop
     btop
-    dgop
     git
     github-cli
     cmake
