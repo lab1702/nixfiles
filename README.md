@@ -30,8 +30,8 @@ macOS:
 
 bash:
 
-    echo "alias ns='nix-shell ~/nixfiles/data-scienct.nix'" >> ~/.bashrc
+    echo "alias ns='nix-shell ~/nixfiles/data-science.nix'" >> ~/.bashrc
 
 zsh:
 
-    echo "alias ns='nix-shell ~/nixfiles/data-scienct.nix'" >> ~/.zshrc
+    echo "alias ns='nix-shell ~/nixfiles/data-science.nix'" >> ~/.zshrc
