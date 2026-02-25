@@ -25,3 +25,13 @@ macOS:
 ## Start Shell
 
     nix-shell ~/nixfiles/data-science.nix
+
+## Create Alias
+
+bash:
+
+    echo "alias ns='nix-shell ~/nixfiles/data-scienct.nix'" >> ~/.bashrc
+
+zsh:
+
+    echo "alias ns='nix-shell ~/nixfiles/data-scienct.nix'" >> ~/.zshrc
