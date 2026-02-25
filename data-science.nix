@@ -68,7 +68,6 @@ pkgs.mkShell {
   ];
 
   shellHook = ''
-    cd
     echo
     figlet "Welcome to Lars' Data Science Environment!"
   '';
